@@ -1,0 +1,6 @@
+[24-Jul-2018 07:29:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'lionsoft_pwasite'@'108.167.132.96' to database 'lionsoft_pwa_havaianas'' in /home1/lionsoft/pwa.lionsoftdobrasil.com.br/admin/conect/conexao.php:2
+Stack trace:
+#0 /home1/lionsoft/pwa.lionsoftdobrasil.com.br/admin/conect/conexao.php(2): PDO->__construct('mysql:host=108....', 'lionsoft_pwasit...', 'teste')
+#1 /home1/lionsoft/pwa.lionsoftdobrasil.com.br/admin/relatorio.php(3): include_once('/home1/lionsoft...')
+#2 {main}
+  thrown in /home1/lionsoft/pwa.lionsoftdobrasil.com.br/admin/conect/conexao.php on line 2
